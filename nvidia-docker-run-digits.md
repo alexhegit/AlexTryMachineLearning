@@ -7,7 +7,7 @@ Follow the guide([NVIDIA Container Runtime for Docker](https://github.com/NVIDIA
 It works for me follow the steps
 
 
-### Prerequisites ###
+## Prerequisites ##
 
 The **QUICKSTART** in https://github.com/NVIDIA/nvidia-docker show some prerequisites
 
@@ -117,9 +117,19 @@ Other things about do the training model is same as description in https://githu
 As my experience to train a same model with same data, the nvidia-docker w/ gpu may be 30times fast than docker w/o gpu. 
 
 
+
+## ISSUE ##
+
+
+
+1. no response when do "apt install/update"
+This may cause by your wrong DNS. 
+
+The default network of docker is bridge mode. You may need to set DNS in your container as your real network. This can be done by modify the /etc/resolv.conf in the container. You just need to add a line like "nameserver [your DNS server IP]" at the end of /etc/resolv.conf
+
 ----------
 
-### Reference ###
+## Reference ##
 
     https://github.com/NVIDIA/nvidia-docker  
     https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
