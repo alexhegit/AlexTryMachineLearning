@@ -74,6 +74,41 @@
 	No error means the pycaffe is work
 
 
+----------
+
+## Test Caffe ##
+
+There are many examples build out from caffe. You can find them at ~/caffe/build/examples/
+
+I will use the cpp binary (/home/xilinx/caffe/build/examples/cpp_classification/classification.bin) to test caffe with my first small AlexNet mode named dophin_seahorse_model. To get the trained model 
+
+**Train a caffe model**
+I'd like to recommend https://github.com/humphd/have-fun-with-machine-learning if you are first time use caffe. If you have a Nvidia GPU, you can refer to my experience about nvidia-docker.  Here is my blog, https://github.com/alexhegit/AlexTryMachineLearning/blob/master/nvidia-docker-run-digits.md
+
+
+
+**Run test**
+
+Copy the classification.bin and model files in one directory. And you also need prepare a image(dophin or seahorse) for test.
+
+    xilinx@pynq:~/dophin_seahorse_model$ ls
+    classification.bin  deploy.prototxt  image.jpg  labels.txt  mean.binaryproto  snapshot_iter_90.caffemodel
+    xilinx@pynq:~/dophin_seahorse_model$ ./classification.bin
+    Usage: ./classification.bin deploy.prototxt network.caffemodel mean.binaryproto labels.txt img.jpg
+
+    xilinx@pynq:~/dophin_seahorse_model$ time ./classification.bin deploy.prototxt snapshot_iter_90.caffemodel mean.binaryproto labels.txt image.jpg
+    ---------- Prediction for image.jpg ----------
+    1.0000 - "dolphin"
+    0.0000 - "seahorse"
+    
+    real	0m6.610s
+    user	0m7.959s
+    sys	 	0m0.854s
+    xilinx@pynq:~/dophin_seahorse_model$
+
+
+
+----------
 
 ### ISSUES ###
 I got these issues and do not get the solution now. Record here and hope we can resolve them in the furture.
