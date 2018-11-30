@@ -1,5 +1,8 @@
 # Install Caffe #
 
+[https://github.com/alexhegit/AlexTryMachineLearning]
+----------
+
 You know **Install Caffe** is one thing you never try second time. This blog record the key points about How-To install Caffe on my PC/Ubuntu16.04. Hope it will help when you do it and only need do it one time. 
 
 Good Luck!
@@ -257,11 +260,12 @@ E.g. add PATH of caffe to ~/.bashrc
 Running an official image
 You can run one of the automatic builds. E.g. for the CPU version:
 
-docker run -ti bvlc/caffe:cpu caffe --version
+    docker run -ti bvlc/caffe:cpu caffe --version
 
 or for GPU support (You need a CUDA 8.0 capable driver and nvidia-docker):
 
-nvidia-docker run -ti bvlc/caffe:gpu caffe --version
+
+    nvidia-docker run -ti bvlc/caffe:gpu caffe --version
 
 You might see an error about libdc1394, ignore it.
 
