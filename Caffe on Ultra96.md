@@ -40,7 +40,7 @@
     	https://github.com/weiliu89/caffe/tree/ssd 
     	Backup git: https://github.com/dengdan/ssd-caffe
     
-    Copy the Ultra96 version of Makefile.config (Makefile.config.caffe.ultra96 in this git) to caffe root directory
+    Copy the PYNQ version of Makefile.config (provided under https://github.com/alexhegit/AlexTryMachineLearning/blob/master/Makefile.config.caffe.ultra96) to caffe root directory
     
 	    $make all
 	    $make test
