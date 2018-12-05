@@ -1,10 +1,8 @@
 # Caffe on Ultra96 #
 
-[https://github.com/alexhegit/AlexTryMachineLearning]
 ----------
 
-
-## Installation ##
+## Prerequiste ##
 
 **http://www.pynq.io/  -download pynq image for Ultra96(I ust v2.3 here)**
 
@@ -36,7 +34,7 @@
     $mkswap /dev/sda  
     $swapon /dev/sda
    
-**Install Caffe**
+**Build Caffe**
 
 	Clone or download caffe from link provided. This is for Caffe ssd model.
     	https://github.com/weiliu89/caffe/tree/ssd 
@@ -76,6 +74,29 @@
 	No error means the pycaffe is work
 
 
+### Simple Way - apt install caffe ###
+The Ultra96 v2.3 image use Ubuntu18.04 which can use apt install caffe package directlly.
+
+Check the packages
+
+    xilinx@pynq:~$ sudo apt-cache search caffe
+    caffe-cpu - Fast, open framework for Deep Learning (Meta)
+    caffe-doc - Caffe's doxygen docs and examples
+    caffe-tools-cpu - Tools for fast, open framework for Deep Learning (CPU_ONLY)
+    caffeine - prevent the desktop becoming idle in full-screen mode
+    git-cola - highly caffeinated git GUI
+    gnome-shell-extension-caffeine - GNOME Shell extension to keep your computer awake
+    libcaffe-cpu-dev - development files for Caffe (CPU_ONLY)
+    libcaffe-cpu1 - library of Caffe, deep learning framework (CPU_ONLY)
+    python3-caffe-cpu - Python3 interface of Caffe (CPU_ONLY)
+    ttf-aenigma - 465 free TrueType fonts by Brian Kent
+
+Install caffe packages
+
+    xilinx@pynq:~$ sudo apt install caffe-cpu caffe-tools-cpu caffe-doc libcaffe-cpu-dev libcaffe-cpu1 python3-caffe-cpu
+
+Then test and use caffe
+
 ----------
 
 ## Test Caffe ##
@@ -112,7 +133,7 @@ Copy the classification.bin and model files in one directory. And you also need 
 
 ----------
 
-### ISSUES ###
+### Build Issues ###
 I got these issues and do not get the solution now. Record here and hope we can resolve them in the furture.
 If you got the answer, please let me know by create a new issue in the git or sent email to me (ahe@xilinx.com/heye_dev@163.com). Thank you!
 
