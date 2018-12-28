@@ -180,6 +180,9 @@ Or export the Container as a Image tar file could be share with ohters. Run in H
 
     $sudo docker export -o ml-suite-1.0.tar 73ab0ee64280
     
+## Push to DockerHub ##
+I push this docker image to DockerHub 
+https://cloud.docker.com/repository/docker/alexhegit/ml-suite
 
 ## Reference ##
 - Xilinx UG1301 - Getting Started with Alveo Data Center Accelerator Cards
