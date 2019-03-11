@@ -4,7 +4,7 @@ I push a docker [image](https://cloud.docker.com/u/alexhegit/repository/docker/a
 
 ## Pull the docker image ##
 
-> $docker pull alexhegit/dnndk:2.08_ditits6.1
+>$docker pull alexhegit/dnndk:2.08_ditits6.1
 
 ## Start the Container ##
 
@@ -53,7 +53,7 @@ Xilinx publish the [Edge AI Tutorials](https://github.com/Xilinx/Edge-AI-Platfor
 
 There is a guide for using DIGITS to train the miniVggNet which used in [CIFAR10 Caffe Tutorial, UG1335](https://github.com/Xilinx/Edge-AI-Platform-Tutorials/tree/master/docs/ML-CIFAR10-Caffe).
 
-[Here]
+[[Here](https://github.com/alexhegit/AlexTryMachineLearning/blob/master/CIFAR10_Caffe_Tutorial_UG1335/Training_miniVggNet_by_NVIDIA%20DIGITS.pdf)]
 
 
 ## Reference ##
