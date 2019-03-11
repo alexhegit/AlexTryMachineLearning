@@ -14,17 +14,7 @@ Two network mode for you reference to start the container.
 
     $docker run --runtime=nvidia -it --network=host --name dnndk208 --hostname=dnndk -d -v /home/ahe/:/ahe  alexhegit/dnndk:2.08_digits6.1  /bin/bash
 
-### Bridige Network Mode ###
-
-    $docker run --runtime=nvidia -it --network=bridge --dns=172.22.160.151 --name dnndk208 --hostname=dnndk -d -v /home/ahe/:/ahe  -p 5000:5000 -p 8208:8208 -p 9901:5901  alexhegit/dnndk:2.08_digits6.1  /bin/bash
-
-Ports Mapping:
-
-- 5000:5000	NVIDIA/DIGITS
-- 9901:5901	VNC
-- 8208:8208	Jupyter-notebook
-
-*NOTE: you may need change the options as your need *
+*NOTE: you may changing the options as your need *
 
 
 ## Start DIGITS Service ##
