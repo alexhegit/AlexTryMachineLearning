@@ -1,8 +1,8 @@
 # armNN on PYNQ/Ultra96 #
 
-https://github.com/ARM-software/armnn
+Arm NN is a key component of the machine learning platform which is part of the Linaro Machine Intelligence Initiative. For more information on the machine learning platform and Arm NN, see: https://mlplatform.org/, also there is further Arm NN information available from https://developer.arm.com/products/processors/machine-learning/arm-nn
 
-https://github.com/ARM-software/armnn/blob/branches/armnn_19_02/BuildGuideCrossCompilation.md
+Here is my trying to enable Arm NN on Pynq/Ultra96.
 
 
 ## Native Build ##
@@ -221,11 +221,15 @@ You can try run.sh or mnist_tf_convol and mnist_tf_simple after the compiled.
 
 ## Reference & Resource ##
 
+https://github.com/ARM-software/armnn
+
 https://github.com/ARM-software/Tool-Solutions
 
 https://github.com/ARM-software/ML-examples/tree/master/armnn-mnist
 
 https://developer.arm.com/products/processors/machine-learning/arm-nn
+
+https://github.com/ARM-software/armnn/blob/branches/armnn_19_02/BuildGuideCrossCompilation.md
 
 https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides
 
