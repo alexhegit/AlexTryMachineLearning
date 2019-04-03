@@ -59,6 +59,14 @@ This is the code repository for [Hands-On Deep Learning with TensorFlow](https:/
 - mlcourse.ai – Open Machine Learning Course
 [Here](https://github.com/Yorko/mlcourse.ai)
 
+- exacity/deeplearningbook-chinese 
+《深度学习》github译本 https://exacity.github.io/deeplearningbook-chinese/
+[Here](https://github.com/exacity/deeplearningbook-chinese)
+
+- mml-book/mml-book.github.io 
+Mathematics for Machine Learning(https://mml-book.github.io/)
+[Here](https://github.com/mml-book/mml-book.github.io)
+
 # URL #
 
 ## OpenCV ##
