@@ -65,8 +65,8 @@ This is the code repository for [Hands-On Deep Learning with TensorFlow](https:/
 - [A lite private website about OpenCV](https://www.learnopencv.com/)
 
 
-
 ## Machine Learning ##
 - [Machine Learning Is Fun](https://www.machinelearningisfun.com/)
 - [Start Training on Machine Learning with AWS](https://aws.amazon.com/cn/training/learning-paths/machine-learning/) (30+ digital ML courses totaling 45+ hours, plus hands-on labs and documentation, originally developed for Amazon's internal use. )
-- [r2us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance)
+- [r2us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance) 
+- [Open Machine Learning Course mlcourse.ai](https://mlcourse.ai/) (mlcourse.ai is an open Machine Learning course by OpenDataScience)
