@@ -73,7 +73,7 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 - **Original**: https://opencv.org/
 - [OpenCV Tutorials](https://docs.opencv.org/master/d9/df8/tutorial_root.html) 
 - [A lite private website about OpenCV](https://www.learnopencv.com/)
-- [learning computer vision and OpenCV](https://www.pyimagesearch.com/)
+- [pyimagesearch](https://www.pyimagesearch.com/) , a blog dedicated to computer vision, OpenCV, and deep learning
 
 ## Machine Learning ##
 - [Machine Learning Is Fun](https://www.machinelearningisfun.com/)
