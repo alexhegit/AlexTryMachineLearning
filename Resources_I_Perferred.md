@@ -73,11 +73,11 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 - **Original**: https://opencv.org/
 - [OpenCV Tutorials](https://docs.opencv.org/master/d9/df8/tutorial_root.html) 
 - [A lite private website about OpenCV](https://www.learnopencv.com/)
-
+- [learning computer vision and OpenCV](https://www.pyimagesearch.com/)
 
 ## Machine Learning ##
 - [Machine Learning Is Fun](https://www.machinelearningisfun.com/)
 - [Start Training on Machine Learning with AWS](https://aws.amazon.com/cn/training/learning-paths/machine-learning/) (30+ digital ML courses totaling 45+ hours, plus hands-on labs and documentation, originally developed for Amazon's internal use. )
-- [r2us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance) 
+- [r2d3.us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance) 
 - [Open Machine Learning Course mlcourse.ai](https://mlcourse.ai/) (mlcourse.ai is an open Machine Learning course by OpenDataScience)
 - [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
