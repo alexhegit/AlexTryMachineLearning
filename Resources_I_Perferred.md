@@ -67,6 +67,8 @@ This is the code repository for [Hands-On Deep Learning with TensorFlow](https:/
 Mathematics for Machine Learning(https://mml-book.github.io/)
 [Here](https://github.com/mml-book/mml-book.github.io)
 
+
+
 # URL #
 
 ## OpenCV ##
@@ -81,3 +83,8 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 - [r2d3.us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance) 
 - [Open Machine Learning Course mlcourse.ai](https://mlcourse.ai/) (mlcourse.ai is an open Machine Learning course by OpenDataScience)
 - [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
+
+## Numpy ##
+- [Numpy CN](https://www.numpy.org.cn/) 
+- [teadocs/numpy-cn](https://github.com/teadocs/numpy-cn)
+
