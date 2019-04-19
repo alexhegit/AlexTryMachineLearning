@@ -56,6 +56,9 @@ This is the code repository for [Hands-On Deep Learning with TensorFlow](https:/
 
 [Here](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-TensorFlow)
 
+- Udacity Computer Vision Nanodegree Program, Exercises
+[Here](https://github.com/udacity/CVND_Exercises)
+
 - mlcourse.ai – Open Machine Learning Course
 [Here](https://github.com/Yorko/mlcourse.ai)
 
