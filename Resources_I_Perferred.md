@@ -94,3 +94,9 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
 - [Numpy CN](https://www.numpy.org.cn/) 
 - [teadocs/numpy-cn](https://github.com/teadocs/numpy-cn)
 
+# Tools #
+[Netron](https://electronjs.org/apps/netron) Viewer for neural network models
+Netron supports ONNX (.onnx, .pb, .pbtxt), Keras (.h5, .keras), CoreML (.mlmodel), Caffe2 (predict_net.pb, predict_net.pbtxt), MXNet (.model, -symbol.json) and TensorFlow Lite (.tflite). Netron has experimental support for Caffe (.caffemodel, .prototxt), PyTorch (.pth), Torch (.t7), CNTK (.model, .cntk), PaddlePaddle (__model__), Darknet (.cfg), scikit-learn (.pkl), TensorFlow.js (model.json, .pb) and TensorFlow (.pb, .meta, .pbtxt).
+
+[Netscope](https://ethereon.github.io/netscope/quickstart.html)
+A web-based tool for visualizing neural network architectures (or technically, any directed acyclic graph). It currently supports Caffe's prototxt format.
