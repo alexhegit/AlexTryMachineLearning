@@ -98,9 +98,20 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
 - [Numpy CN](https://www.numpy.org.cn/) 
 - [teadocs/numpy-cn](https://github.com/teadocs/numpy-cn)
 
+## Yolo/Darknet ##
+- [Darknet](https://pjreddie.com/darknet/) [Git Repo](https://github.com/pjreddie/darknet)
+
+- Expore Yolo
+  * [5分钟学会AI - How YOLO only look once](https://zhuanlan.zhihu.com/p/32172286) 
+  * [5分钟学会AI - How to use YOLO with python](https://zhuanlan.zhihu.com/p/32097670)
+  * [目标检测 - 你真的读懂yolo了吗？（分享自知乎网）](https://zhuanlan.zhihu.com/p/37850811?utm_source=com.android.email&utm_medium=social&utm_oi=866712236041859072)
+  * [yolov3 Keras实现解](https://danielack.github.io/2018/08/25/yolov3Keras%E5%AE%9E%E7%8E%B0%E8%A7%A3%E8%AF%BB/)
+  
+
 # Tools #
 - [Netron](https://electronjs.org/apps/netron) Viewer for neural network models
 Netron supports ONNX (.onnx, .pb, .pbtxt), Keras (.h5, .keras), CoreML (.mlmodel), Caffe2 (predict_net.pb, predict_net.pbtxt), MXNet (.model, -symbol.json) and TensorFlow Lite (.tflite). Netron has experimental support for Caffe (.caffemodel, .prototxt), PyTorch (.pth), Torch (.t7), CNTK (.model, .cntk), PaddlePaddle (__model__), Darknet (.cfg), scikit-learn (.pkl), TensorFlow.js (model.json, .pb) and TensorFlow (.pb, .meta, .pbtxt).
 
 - [Netscope](https://ethereon.github.io/netscope/quickstart.html)
 A web-based tool for visualizing neural network architectures (or technically, any directed acyclic graph). It currently supports Caffe's prototxt format.
+
