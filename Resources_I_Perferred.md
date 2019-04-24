@@ -101,7 +101,7 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
 ## Yolo/Darknet ##
 - [Darknet](https://pjreddie.com/darknet/) [Git Repo](https://github.com/pjreddie/darknet)
 
-- Expore Yolo
+- Explore Yolo
   * [5分钟学会AI - How YOLO only look once](https://zhuanlan.zhihu.com/p/32172286) 
   * [5分钟学会AI - How to use YOLO with python](https://zhuanlan.zhihu.com/p/32097670)
   * [目标检测 - 你真的读懂yolo了吗？（分享自知乎网）](https://zhuanlan.zhihu.com/p/37850811?utm_source=com.android.email&utm_medium=social&utm_oi=866712236041859072)
