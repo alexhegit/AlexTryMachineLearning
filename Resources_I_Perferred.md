@@ -91,6 +91,10 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 - [Open Machine Learning Course mlcourse.ai](https://mlcourse.ai/) (mlcourse.ai is an open Machine Learning course by OpenDataScience)
 - [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
 
+- [Collective Knowledge (CK) ](http://cknowledge.org/)
+
+- [MLperf](https://mlperf.org/)
+
 ## HLS4ML ##
 https://hls-fpga-machine-learning.github.io/hls4ml/
 
