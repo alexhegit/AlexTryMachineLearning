@@ -78,6 +78,9 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 
 # URL #
 
+## RIP Tutorial ##
+- [riptutorial](https://riptutorial.com)
+
 ## OpenCV ##
 - **Original**: https://opencv.org/
 - [OpenCV Tutorials](https://docs.opencv.org/master/d9/df8/tutorial_root.html) 
