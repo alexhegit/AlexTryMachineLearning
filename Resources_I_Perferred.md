@@ -102,6 +102,8 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 - [MLperf](https://mlperf.org/)
 
+- [TFLearn](http://tflearn.org/)
+
 ## HLS4ML ##
 https://hls-fpga-machine-learning.github.io/hls4ml/
 
