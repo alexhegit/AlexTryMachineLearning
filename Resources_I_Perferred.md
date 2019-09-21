@@ -75,6 +75,10 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 [Here](https://github.com/mml-book/mml-book.github.io)
 
 
+- Top Deep Learning Projects
+A list of popular github projects related to deep learning (ranked by stars).
+[Here](https://github.com/aymericdamien/TopDeepLearning)
+
 
 # URL #
 
