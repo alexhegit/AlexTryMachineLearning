@@ -91,6 +91,9 @@ A list of popular github projects related to deep learning (ranked by stars).
 - [A lite private website about OpenCV](https://www.learnopencv.com/)
 - [pyimagesearch](https://www.pyimagesearch.com/) , a blog dedicated to computer vision, OpenCV, and deep learning
 
+## Data Science ##
+- [Towards Data Science, Sharing concepts, ideas, and codes](https://towardsdatascience.com/)
+
 ## Machine Learning ##
 - [Machine Learning Is Fun](https://www.machinelearningisfun.com/)
 - [Start Training on Machine Learning with AWS](https://aws.amazon.com/cn/training/learning-paths/machine-learning/) (30+ digital ML courses totaling 45+ hours, plus hands-on labs and documentation, originally developed for Amazon's internal use. )
