@@ -137,6 +137,9 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
     
   * [腾讯优图：开源YOLO系列代码（含YOLOv3以及各种backbone)](https://zhuanlan.zhihu.com/p/55070321?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=859543215987097600)
 
+  * [YOLOv3通道+层剪枝，参数压缩98%，砍掉48个层，提速2倍！](https://mp.weixin.qq.com/s/8ZgiDFvim5wT29icVmuK7g)
+    [Git URL](https://github.com/tanluren/yolov3-channel-and-layer-pruning)
+
 # Tools #
 - [Netron](https://electronjs.org/apps/netron) Viewer for neural network models
 Netron supports ONNX (.onnx, .pb, .pbtxt), Keras (.h5, .keras), CoreML (.mlmodel), Caffe2 (predict_net.pb, predict_net.pbtxt), MXNet (.model, -symbol.json) and TensorFlow Lite (.tflite). Netron has experimental support for Caffe (.caffemodel, .prototxt), PyTorch (.pth), Torch (.t7), CNTK (.model, .cntk), PaddlePaddle (__model__), Darknet (.cfg), scikit-learn (.pkl), TensorFlow.js (model.json, .pb) and TensorFlow (.pb, .meta, .pbtxt).
