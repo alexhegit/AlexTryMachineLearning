@@ -129,6 +129,7 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
   * [目标检测 - 你真的读懂yolo了吗？（分享自知乎网）](https://zhuanlan.zhihu.com/p/37850811?utm_source=com.android.email&utm_medium=social&utm_oi=866712236041859072)
   * [一文看懂YOLO v3](https://blog.csdn.net/litt1e/article/details/88907542)
   * [深入理解目标检测与YOLO（从v1到v3）](https://www.imooc.com/article/36391)
+  * [YOLOv3 anchor 机制及损失函数计算详解](https://www.lmlphp.com/user/1134/article/item/15142/)
   * [yolov3 Keras实现解](https://danielack.github.io/2018/08/25/yolov3Keras%E5%AE%9E%E7%8E%B0%E8%A7%A3%E8%AF%BB/)
   * [yolov3-tiny](https://blog.csdn.net/qq_14845119/article/details/80335225)
   
