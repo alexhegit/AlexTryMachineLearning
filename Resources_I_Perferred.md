@@ -79,11 +79,14 @@ Mathematics for Machine Learning(https://mml-book.github.io/)
 A list of popular github projects related to deep learning (ranked by stars).
 [Here](https://github.com/aymericdamien/TopDeepLearning)
 
+# AUTO ML #
+- [OPTUNA](https://optuna.org/) Optuna: A hyperparameter optimization framework
 
 # URL #
 
 ## RIP Tutorial ##
 - [riptutorial](https://riptutorial.com)
+  Summary many tutorial about different programming language like C/C++/Python/SQL, etc 
 
 ## OpenCV ##
 - **Original**: https://opencv.org/
