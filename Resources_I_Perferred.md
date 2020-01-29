@@ -10,6 +10,9 @@ This is a hands-on guide to machine learning for programmers with no background 
 
 [Here](https://github.com/humphd/have-fun-with-machine-learning)
 
+- Pytorch
+[pytorch-handbook](https://github.com/alexhegit/pytorch-handbook)
+
 - Microsoft/MMdnn
 
 MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
@@ -81,6 +84,7 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 # AUTO ML #
 - [OPTUNA](https://optuna.org/) Optuna: A hyperparameter optimization framework
+- [fastai](https://www.fast.ai/) https://github.com/fastai/fastai
 
 # URL #
 
