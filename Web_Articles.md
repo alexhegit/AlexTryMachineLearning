@@ -1,3 +1,5 @@
 Here are the very good web articles of AI/ML I have seen.
 
  * [无需数学背景，读懂ResNet、Inception和Xception三大变革性架构 ](https://m.sohu.com/a/166062301_465914/?pvid=000115_3w_a#read)
+ * [万字长文带你看尽深度学习中的12种卷积网络](https://www.toutiao.com/a6677795007350440460/)
+ * [深度学习（计算机视觉）的基础：一文让你彻底了解卷积神经网络](https://www.toutiao.com/a6756870100248183304/)
