@@ -83,11 +83,11 @@ A list of popular github projects related to deep learning (ranked by stars).
 - [OPTUNA](https://optuna.org/) Optuna: A hyperparameter optimization framework
 - [fastai](https://www.fast.ai/) https://github.com/fastai/fastai
 
-# PyTorch#
+# PyTorch #
 [pytorch-handbook](https://github.com/alexhegit/pytorch-handbook)
 
 # Tensorflow #
-- [简单粗暴 TensorFlow 2 | A Concise Handbook of TensorFlow 2]( https://github.com/snowkylin/tensorflow-handbook)
+- [简单粗暴 TensorFlow 2 | A Concise Handbook of TensorFlow 2](https://tf.wiki/) GitHub ( https://github.com/snowkylin/tensorflow-handbook)
 
 # URL #
 
