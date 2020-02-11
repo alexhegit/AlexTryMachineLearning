@@ -91,6 +91,9 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 # URL #
 
+## Python
+- [Python3-tutorial in Chinese](https://www.runoob.com/python3/python3-tutorial.html)
+
 ## RIP Tutorial ##
 - [riptutorial](https://riptutorial.com)
   Summary many tutorial about different programming language like C/C++/Python/SQL, etc 
