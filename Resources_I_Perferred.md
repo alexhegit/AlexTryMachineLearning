@@ -111,6 +111,7 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 ## Machine Learning ##
 - [Machine Learning Is Fun](https://www.machinelearningisfun.com/)
+- [李宏毅机器学习(2017)](https://www.bilibili.com/video/av10590361)
 - [Start Training on Machine Learning with AWS](https://aws.amazon.com/cn/training/learning-paths/machine-learning/) (30+ digital ML courses totaling 45+ hours, plus hands-on labs and documentation, originally developed for Amazon's internal use. )
 - [r2d3.us](http://www.r2d3.us/) (Give a very cool visual introduction to ML, now just has two parts, Part1 A Decision Tree / Part2 Bias and Variance) 
 - [Open Machine Learning Course mlcourse.ai](https://mlcourse.ai/) (mlcourse.ai is an open Machine Learning course by OpenDataScience)
