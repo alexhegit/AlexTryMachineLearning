@@ -93,6 +93,9 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 # URL #
 
+## GPU
+- [GPU加速的编程思想，图解，和经典案例，NVIDIA Python Numba CUDA大法好](https://blog.csdn.net/u013390476/article/details/82194709)
+
 ## Python
 - [Python3-tutorial in Chinese](https://www.runoob.com/python3/python3-tutorial.html)
 
@@ -151,8 +154,8 @@ https://hls-fpga-machine-learning.github.io/hls4ml/
   
   * EYD与机器学习-yolo系列
     - [<机器爱学习>YOLO v1深入理解](https://zhuanlan.zhihu.com/p/46691043)
-    -[<机器爱学习>YOLOv2 / YOLO9000 深入理解](https://zhuanlan.zhihu.com/p/47575929)
-    [<机器爱学习>YOLO v3深入理解](https://zhuanlan.zhihu.com/p/49556105)
+    - [<机器爱学习>YOLOv2 / YOLO9000 深入理解](https://zhuanlan.zhihu.com/p/47575929)
+    - [<机器爱学习>YOLO v3深入理解](https://zhuanlan.zhihu.com/p/49556105)
     
   * [腾讯优图：开源YOLO系列代码（含YOLOv3以及各种backbone)](https://zhuanlan.zhihu.com/p/55070321?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=859543215987097600)
 
