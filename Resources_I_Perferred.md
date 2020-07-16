@@ -130,6 +130,8 @@ A list of popular github projects related to deep learning (ranked by stars).
 
 - [神力工业AI工具链](http://manaai.cn/)
 
+- [https://www.murtazahassan.com/](https://www.murtazahassan.com/)
+
 ## HLS4ML ##
 https://hls-fpga-machine-learning.github.io/hls4ml/
 
