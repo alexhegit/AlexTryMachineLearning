@@ -74,6 +74,10 @@ This is the code repository for [Hands-On Deep Learning with TensorFlow](https:/
 Mathematics for Machine Learning(https://mml-book.github.io/)
 [Here](https://github.com/mml-book/mml-book.github.io)
 
+# Paper with Code # 
+[OPEN REID](https://cysu.github.io/open-reid/)
+[Deep Learning and stuff papers](https://papers.readthedocs.io/en/latest/)
+
 
 - Top Deep Learning Projects
 A list of popular github projects related to deep learning (ranked by stars).
