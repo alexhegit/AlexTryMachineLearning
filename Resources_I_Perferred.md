@@ -20,6 +20,10 @@ MMdnn is a set of tools to help users inter-operate among different deep learnin
 Introduces the utilization of MMdnn(a model converter) and provide a simple GUI for inference task of image classification.
 [Here](https://github.com/purelyvivid/MMdnn-util)
 
+- Awesome Machine Learning
+A curated list of awesome machine learning frameworks, libraries and software (by language).
+[Here](https://github.com/josephmisiti/awesome-machine-learning)
+
 - ZuzooVn/machine-learning-for-software-engineers
 
 Top-down learning path: Machine Learning for Software Engineers
