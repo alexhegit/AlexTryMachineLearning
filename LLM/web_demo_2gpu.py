@@ -2,11 +2,12 @@ from transformers import AutoModel, AutoTokenizer
 import gradio as gr
 import mdtex2html
 
+from typing import Dict, Tuple, Union, Optional
+from utils import load_model_on_gpus
+
+
 #import torch
 #torch.cuda.set_device(1)
-
-from utils import load_model_on_gpus
-from typing import Dict, Tuple, Union, Optional
 
 def fix_configure_device_map() -> Dict[str, int]:
     # transformer.word_embeddings 占用1层
@@ -15,7 +16,7 @@ def fix_configure_device_map() -> Dict[str, int]:
     # 总共30层分配到num_gpus张卡上
 
     num_trans_layers = 28
-
+       
     # bugfix: 在linux中调用torch.embedding传入的weight,input不在同一device上,导致RuntimeError
     # windows下 model.device 会被设置成 transformer.word_embeddings.device
     # linux下 model.device 会被设置成 lm_head.device
@@ -37,17 +38,47 @@ def fix_configure_device_map() -> Dict[str, int]:
 
     return device_map
 
-model_path = "../chatglm-6b-int8-model"
+# chatglm2-b6和chatglm-6b结构有所不同,参考chatglm-6b的device_map修改
+def fix_configure_device_map_v2() -> Dict[str, int]:
+    # transformer.layers 占用 28 层
+    # 总共30层分配到num_gpus张卡上
+
+    num_trans_layers = 28
+
+    device_map = {'transformer.embedding.word_embeddings': 0,
+                  'transformer.rotary_pos_emb': 0,
+                  'transformer.encoder.final_layernorm': 0,
+                  'transformer.output_layer': 0}             
+
+    # GPU0 - 6GB; GPU1 - 12GB
+    # 将前8个Transformer layers 放置在GPU0上，其他的放置在GPU1上
+    gpu0_layers = 8
+    gpu1_layers = num_trans_layers - gpu0_layers
+    gpu_target = 0
+    for i in range(num_trans_layers):
+        if i >= gpu0_layers:
+            gpu_target = 1
+        device_map[f'transformer.encoder.layers.{i}'] = gpu_target
+
+    return device_map
+
+model_path = "../chatglm2-6b-model"
+print("Load mode: "+model_path)
 
 #tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True)
 #model = AutoModel.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True).half().cuda()
-#tokenizer = AutoTokenizer.from_pretrained("../chatglm-6b-int8-model", trust_remote_code=True)
-#model = AutoModel.from_pretrained("../chatglm-6b-int8-model", trust_remote_code=True).half().cuda()
 
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-model = load_model_on_gpus(model_path, num_gpus=2, device_map=fix_configure_device_map())
+
+
+if "chatglm2" in model_path:
+    model = load_model_on_gpus(model_path, num_gpus=2, device_map=fix_configure_device_map_v2())
+else:
+    model = load_model_on_gpus(model_path, num_gpus=2, device_map=fix_configure_device_map())
+
 
 model = model.eval()
+#print(model)
 
 """Override Chatbot.postprocess"""
 
@@ -141,4 +172,4 @@ with gr.Blocks() as demo:
 
     emptyBtn.click(reset_state, outputs=[chatbot, history], show_progress=True)
 
-demo.queue().launch(share=False, inbrowser=True)
+demo.queue().launch(share=True, inbrowser=True)
