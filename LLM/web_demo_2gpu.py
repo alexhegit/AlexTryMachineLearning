@@ -16,7 +16,7 @@ def fix_configure_device_map() -> Dict[str, int]:
     # 总共30层分配到num_gpus张卡上
 
     num_trans_layers = 28
-       
+
     # bugfix: 在linux中调用torch.embedding传入的weight,input不在同一device上,导致RuntimeError
     # windows下 model.device 会被设置成 transformer.word_embeddings.device
     # linux下 model.device 会被设置成 lm_head.device
@@ -48,7 +48,8 @@ def fix_configure_device_map_v2() -> Dict[str, int]:
     device_map = {'transformer.embedding.word_embeddings': 0,
                   'transformer.rotary_pos_emb': 0,
                   'transformer.encoder.final_layernorm': 0,
-                  'transformer.output_layer': 0}             
+                  'transformer.output_layer': 0,
+                  'lm_head': 0}
 
     # GPU0 - 6GB; GPU1 - 12GB
     # 将前8个Transformer layers 放置在GPU0上，其他的放置在GPU1上
